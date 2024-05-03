@@ -54,7 +54,7 @@ import timesmicro.plot2D as plt
 
 plt.cableLossFromCSV(path='measured.csv', color='tab:red')
 
-plt.cableLoss(distance=120,color='tab:blue')
+plt.cableLoss(distance=120, color='tab:blue')
 
 plt.show()
 ```
