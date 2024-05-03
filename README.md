@@ -42,3 +42,23 @@ timesmicro.plot2D.show()
 ```
 
 ![alt text](https://github.com/ghunshoot/timesmicro/blob/main/CL-CSV-DATA.png)
+
+
+### Ideal CL vs Measured CL
+
+This exampl
+
+```python
+import timesmicro.plot2D as plt
+import timesmicro.functions as fnc
+
+
+#plt.cableLoss(distance=120)
+
+plt.cableLossFromCSV(path='measured.csv')
+
+plt.show()
+```
+![alt text](https://github.com/ghunshoot/timesmicro/blob/main/CL-IDEALvsMEASURED.png)
+
+
