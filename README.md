@@ -13,4 +13,4 @@ timesmicro.plot2D.cableLoss(distance=120)
 timesmicro.plot2D.show()
 ```
 
-(https://github.com/ghunshoot/timesmicro/blob/main/CL-LMR400-120ft.png)
+![alt text](https://github.com/ghunshoot/timesmicro/blob/main/CL-LMR400-120ft.png)
