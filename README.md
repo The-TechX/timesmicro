@@ -9,5 +9,6 @@ Or plot the ideal function for the cable loss of a cable with the distance as in
 
 ```python
 timesmicro.plot2D.cableLoss(distance=120)
+
 timesmicro.plot2D.show()
 ```
