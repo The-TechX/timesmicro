@@ -16,3 +16,23 @@ timesmicro.plot2D.show()
 ```
 
 ![alt text](https://github.com/ghunshoot/timesmicro/blob/main/CL-LMR400-120ft.png)
+
+### 2D Plot from CSV file
+Create a 2D plot from data of a csv file.
+
+The structure of the CSV file should be:
+| `Frequency`   | `Attenuation` |
+|:-------------:|:-------------:|
+| 1000          | 5             |
+| 1200          | 5.8           |
+| 1400          | 6.2           |
+| 1600          | 6.8           |
+| ...           | ...           |
+
+
+```python
+
+timesmicro.plot2D.cableLossFromCSV(path='measured.csv')
+
+timesmicro.plot2D.show()
+```
