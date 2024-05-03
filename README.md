@@ -3,12 +3,14 @@
 ### Calculation
 Eeasily calculate the cable loss with the distance run lenght(ft) and frequency(MHz) as inputs.
 
+#### Code:
 ```python
 timesmicro.functions.cableLoss(frequency=1500, distance=120, rounded=True)
 ```
 ### 2D Plot
 Create a 2D plot of the ideal cable loss using the distance run lenght(ft) as input. (start frequency and stop frequency are optional. L-Band by default).
 
+#### Code:
 ```python
 timesmicro.plot2D.cableLoss(distance=120)
 
@@ -31,7 +33,7 @@ The structure of the CSV file should be (headers must be deleted or ignored when
 
 [CSV file format example](https://github.com/ghunshoot/timesmicro/blob/main/measured.csv)
 
-
+#### Code:
 ```python
 
 timesmicro.plot2D.cableLossFromCSV(path='measured.csv')
