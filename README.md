@@ -40,3 +40,5 @@ timesmicro.plot2D.cableLossFromCSV(path='measured.csv')
 
 timesmicro.plot2D.show()
 ```
+
+![alt text](https://github.com/ghunshoot/timesmicro/blob/main/CL-CSV-DATA.png)
