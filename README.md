@@ -50,7 +50,6 @@ This example makes a compariative of an ideal graph with a measured graph from C
 
 ```python
 import timesmicro.plot2D as plt
-import timesmicro.functions as fnc
 
 
 plt.cableLoss(distance=120)
