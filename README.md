@@ -1,5 +1,5 @@
 # Cable Loss for Timesmicrowave LMR Cables. 
-## (for now only LMR-400)
+## Important: For now only LMR-400.
 
 ### Calculation
 Eeasily calculate the cable loss with the distance run lenght(ft) and frequency(MHz) as inputs.
