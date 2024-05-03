@@ -29,7 +29,7 @@ The structure of the CSV file should be (headers must be deleted or ignored when
 | 1600          | 6.8           |
 | ...           | ...           |
 
-CSV file format example ()
+CSV file format example(https://github.com/ghunshoot/timesmicro/blob/main/measured.csv)
 
 
 ```python
