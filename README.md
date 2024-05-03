@@ -46,14 +46,14 @@ timesmicro.plot2D.show()
 
 ### Ideal CL vs Measured CL
 
-This exampl
+This example makes a compariative of an ideal graph with a measured graph from CSV file.
 
 ```python
 import timesmicro.plot2D as plt
 import timesmicro.functions as fnc
 
 
-#plt.cableLoss(distance=120)
+plt.cableLoss(distance=120)
 
 plt.cableLossFromCSV(path='measured.csv')
 
