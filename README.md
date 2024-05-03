@@ -1,6 +1,6 @@
 # Cable Loss for Timesmicrowave LMR Cables. (for now only LMR-400)
 
-Eeasily calculate the cable loss with the distance of the cable and the frequency as inputs.
+Eeasily calculate the cable loss with the distance and frequency as inputs.
 
 ```python
 timesmicro.functions.cableLoss(frequency=1500, distance=120, rounded=True)
