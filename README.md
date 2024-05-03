@@ -52,9 +52,9 @@ This example makes a compariative of an ideal graph with a measured graph from C
 import timesmicro.plot2D as plt
 
 
-plt.cableLoss(distance=120)
+plt.cableLossFromCSV(path='measured.csv', color='tab:red')
 
-plt.cableLossFromCSV(path='measured.csv')
+plt.cableLoss(distance=120,color='tab:blue')
 
 plt.show()
 ```
