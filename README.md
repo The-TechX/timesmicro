@@ -20,7 +20,7 @@ timesmicro.plot2D.show()
 ### 2D Plot from CSV file
 Create a 2D plot from data of a csv file.
 
-The structure of the CSV file should be:
+The structure of the CSV file should be (headers must be deleted or ignored when formatting the file):
 | `Frequency`   | `Attenuation` |
 |:-------------:|:-------------:|
 | 1000          | 5             |
@@ -28,6 +28,8 @@ The structure of the CSV file should be:
 | 1400          | 6.2           |
 | 1600          | 6.8           |
 | ...           | ...           |
+
+CSV file format example ()
 
 
 ```python
